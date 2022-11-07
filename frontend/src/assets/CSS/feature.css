@@ -1,0 +1,60 @@
+.add-feature{
+    background: var(--cw-discord-tent);
+    padding:var(--M-padding);
+    border-radius: 10px;
+}
+
+.add-feature-title{
+    font-size: var(--L-title);
+    font-weight: 700;
+    color: var(--cw-tent);
+}
+
+.add-feature-subtitle{
+    font-size: var(--M-title);
+    color: var(--cw-discord);
+    margin-bottom: var(--S-padding);
+}
+
+.btn-add-feature{
+    background: var(--cw-discord);
+    margin-top: var(--S-padding);
+}
+
+/* INPUTS */
+
+.add-feature input,
+.add-feature textarea{
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 16px;
+    border: 2px solid var(--cw-discord);
+    margin: var(--XS-padding) 0;
+    padding: var(--XS-padding);
+    width: 20rem;
+}
+
+.add-feature textarea{
+    resize: none;
+    height: 5rem;
+}
+
+.add-feature input:focus,
+.add-feature textarea:focus{
+    outline: none;
+}
+
+.feature-moment{ display: flex;}
+.feature-moment div{ flex: 1;}
+.feature-moment div input{ width: 5rem;}
+
+/* ERROR HANDLING */
+.add-feature
+.isError{
+    border: 2px solid rgb(231, 53, 53);;
+}
+
+.error-text{ color: rgb(231, 53, 53); margin-bottom: var(--XS-padding);}
+.feature-important{
+    font-style: italic;
+    font-weight: 500;
+}

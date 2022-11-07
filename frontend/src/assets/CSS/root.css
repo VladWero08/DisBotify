@@ -1,0 +1,78 @@
+/* File that contains root variables and styling */
+/* used in the whole project */
+
+:root{
+    --cw-main: #222831;
+    --cw-second: #29323e;
+    --cw-stroke: #ad7fd4;
+    --cw-stroke-tent: #620cad;
+    --cw-bg-tent: #c5a0e6;
+    --cw-tent: #eeeeee;
+    --cw-discord: #4b64c0;
+    --cw-discord-tent: #93a6ea;
+
+    --XL-title: 3rem;
+    --L-title: 1.5rem;
+    --M-title: 1.25rem;
+    --S-title: 1rem;
+
+    --description-text: 1rem;
+    --caption-text: 0.75rem;
+
+    --L-padding: 3rem;
+    --M-padding: 2rem;
+    --S-padding: 1rem;
+    --XS-padding: 0.5rem;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    line-height: 1.25;
+}
+
+/* STYLE FOR CONTAINERS */
+.container{
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+}
+
+/* STYLE FOR TITLES */
+.big-title{
+    color: var(--cw-stroke);
+    font-size: var(--XL-title);
+    font-weight: 700;
+    margin-bottom: var(--L-padding);
+}
+
+.title{
+    color: var(--cw-second);
+    font-size: var(--L-title);
+    font-weight: 500;
+    margin-bottom: var(--M-padding);
+}
+
+.medium-title{ font-size: var(--L-title); font-weight: 500;}
+.small-title{ font-size: var(--S-title); }
+
+.description-text{
+    color: var(--cw-tent);
+    font-size: var(--description-text);
+}
+
+.caption-text{
+    color: #000;
+    font-size:var(--caption-text);
+}
+
+/* BUTTON BASIC */
+.btn-basic{
+    font-family: 'Montserrat', sans-serif;
+    background: none;
+    font-weight: 500;
+    border: none;
+    border-radius: 24px;
+    padding: 12px;
+}
+.btn-basic:hover{ cursor: pointer;}
