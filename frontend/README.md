@@ -1,6 +1,16 @@
-# frontent
+# DisBotify - front end
+##### VueJS, Vuex, Vue Routing
 
-## Project setup
+The front-end consists of three main pages:
+```
+Home
+Set Up
+Dashboard
+```
+The `dashboard` represents the place where the user will be able to build its Discord bot. 
+
+# Setting up the front end
+## Install npm
 ```
 npm install
 ```
@@ -23,4 +33,3 @@ npm run lint
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
 
-### More libraries for VueJS
